@@ -2070,7 +2070,7 @@ tr.group, tr.group:hover {
 	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
 	-moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
-	background: #f7f8f8;
+	background: #1B2029;
 	min-height: 100%
 }
 .page-content.container {
@@ -2610,7 +2610,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu>li>a>.menu-icon {
 }
 .page-inner {
 	padding: 0 0 50px;
-	background: #F1F4F9;
+	background: #1B2029;
 	position: relative
 }
 .page-header-fixed:not(.page-sidebar-fixed):not(.page-horizontal-bar) .page-inner {
@@ -3336,7 +3336,7 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu>li>a>.menu-icon {
 	background-size: cover
 }
 .page-forgot #main-wrapper, .page-lock-screen #main-wrapper, .page-login #main-wrapper, .page-register #main-wrapper {
-	margin: 5%
+	margin: 5%;
 }
 .login-box {
 	margin: auto;
@@ -3649,8 +3649,4 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu>li>a>.menu-icon {
 	display: block;
 	width: auto;
 	height: 31px;
-}
-
-.pull-right {
-	margin-right: 24px;
 }
