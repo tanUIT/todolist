@@ -29,10 +29,11 @@
                                         <th>Action</th>
                                       </tr>
                                     </thead>
+
                                     <tbody>
                                       <tr class="task-title">
                                         <td class="task-title-sp">
-                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> php</span><span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>JS</span>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> php</span><span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> JS</span>
                                         </td>
                                         <td>
                                           <span class="label label-info label-lg">None</span>
@@ -46,7 +47,7 @@
 
                                       <tr class="task-title">
                                         <td class="task-title-sp">
-                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>bootstrap</span>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> bootstrap</span>
                                         </td>
                                         <td>
                                           <span class="label label-warning label-lg">Pending</span>
@@ -60,7 +61,7 @@
 
                                       <tr class="task-title">
                                         <td class="task-title-sp">
-                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>php</span>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> php</span>
                                         </td>
                                         <td>
                                           <span class="label label-danger label-lg">Completed</span>
@@ -74,7 +75,7 @@
 
                                       <tr class="task-title">
                                         <td class="task-title-sp">
-                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>sql</span><span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>jquey</span>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> sql</span><span class="label label-default label-tag"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> jquey</span>
                                         </td>
                                         <td>
                                           <span class="label label-danger label-lg">None</span>
@@ -90,9 +91,15 @@
 
                               </div>
 
-                              <div class=" add-task-row">
-                                  <input type="text" class="form-control add_task" placeholder="Write something ...">
-                                  <a class="btn btn-info btn-sm pull-left" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add New Tasks</a>
+                              <div class="add-task-row">
+                                <input type="text" class="form-control tasks" placeholder="Write something ...">
+                                <select id="input" class="form-control levels" required="required">
+                                  <option>Low</option>
+                                  <option>Normal</option>
+                                  <option>High</option>
+                                </select>
+                                <a class="btn btn-info btn-sm pull-left" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add New Tasks</a>
+                                <a class="btn btn-default btn-sm pull-right" href="#"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Add Tags</a>
                               </div>
                           </div>
                       </section>

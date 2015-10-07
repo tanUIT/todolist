@@ -3637,9 +3637,20 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu>li>a>.menu-icon {
 	display: block
 }
 
-.add_task {
+.add-task-row > .tasks {
 	float: left;
 	display: block;
-	width: 88%;
+	width: 50%;
 	height: 31px;
+}
+
+.add-task-row > .levels {
+	float: left;
+	display: block;
+	width: auto;
+	height: 31px;
+}
+
+.pull-right {
+	margin-right: 24px;
 }
