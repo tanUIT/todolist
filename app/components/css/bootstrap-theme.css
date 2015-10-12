@@ -3644,6 +3644,13 @@ body:not(.small-sidebar) .horizontal-bar .menu.accordion-menu>li>a>.menu-icon {
 	height: 31px;
 }
 
+.add-task-row > .nodes {
+	float: left;
+	display: block;
+	width: 90%;
+	height: 31px;
+}
+
 .add-task-row > .levels {
 	float: left;
 	display: block;
